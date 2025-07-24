@@ -1,6 +1,6 @@
-bash´´´
+```bash
 DOCKER_BUILDKIT=1 docker build -t debian-ui .
-´´´
-bash´´´
+```
+bash```
 docker run -d -p 5901:5901 -p 6901:6901 --name mein-debian-ui -e VNC_PASSWORD=k8o5 debian-ui
-´´´
+```
