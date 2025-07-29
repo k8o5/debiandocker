@@ -2,9 +2,15 @@
 DOCKER_BUILDKIT=1 docker build -t debian-ui .
 ```
 
-... 
+next
 
 
 ```bash
 docker run -d -p 5901:5901 -p 6901:6901 --name mein-debian-ui -e VNC_PASSWORD=k8o5 debian-ui
+```
+
+next open your browser and visit 
+
+```bash
+localhost:6901/vnc.html
 ```
