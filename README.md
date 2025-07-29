@@ -14,3 +14,5 @@ next open your browser and visit
 ```bash
 localhost:6901/vnc.html
 ```
+
+password: k8o5
